@@ -12,3 +12,36 @@ p {
   color: rgba(0,0,0,.5);
   background-color: rgba(255,255,255,.5);
 }
+
+
+
+a {
+  background-color: transparent;
+}
+
+mark {
+  background-color: #ff0;
+  color: white;
+}
+
+legend {
+  color: inherit;
+}
+
+a.button:visited {
+  background-color: #007aff;
+  color: white;
+}
+
+a.button:visited.secondary {
+  background-color: grey;
+}
+
+.is-over-limit {
+  color: tomato;
+}
+
+a.muted:hover {
+  background-color: transparent;
+  color: #74747a;
+}
